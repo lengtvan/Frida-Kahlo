@@ -1418,3 +1418,34 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   color: #ddd;
 }
+
+table.minimalistBlack {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.minimalistBlack td, table.minimalistBlack th {
+ 
+  padding: 5px 4px;
+}
+table.minimalistBlack tbody td {
+  font-size: 18px;
+}
+table.minimalistBlack thead {
+    border-bottom: 3px solid #000000;
+}
+table.minimalistBlack thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  border-left: 0px solid #D0E4F5;
+}
+table.minimalistBlack thead th:first-child {
+  border-left: none;
+}
+
+table.minimalistBlack tfoot td {
+  font-size: 14px;
+}
+

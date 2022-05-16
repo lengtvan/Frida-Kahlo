@@ -242,3 +242,214 @@
     });
   });
 })();
+
+
+
+
+document.getElementById("2").style.display = "none";
+document.getElementById("3").style.display = "none";
+document.getElementById("4").style.display = "none";
+
+
+
+
+document.getElementById("item2").style.display = "none";
+document.getElementById("item3").style.display = "none";
+document.getElementById("item4").style.display = "none";
+document.getElementById("item5").style.display = "none";
+document.getElementById("item6").style.display = "none";
+document.getElementById("item7").style.display = "none";
+document.getElementById("item8").style.display = "none";
+document.getElementById("item9").style.display = "none";
+document.getElementById("item10").style.display = "none";
+
+
+
+function myFunction(inp) {
+  if (inp == 'what')
+  {
+    
+    document.getElementById("1").style.display = "none";
+    document.getElementById("2").style.display = "table";
+    // document.getElementById("2").classList.add("align-items-center")
+    document.getElementById("3").style.display = "none";
+    document.getElementById("4").style.display = "none";
+  
+  }
+  if (inp == 'who')
+  {
+    document.getElementById("1").style.display = "table";
+    document.getElementById("2").style.display = "none";
+    document.getElementById("3").style.display = "none";
+    document.getElementById("4").style.display = "none";
+  
+  }
+  if (inp == 'where')
+  {
+    document.getElementById("1").style.display = "none";
+    document.getElementById("2").style.display = "none";
+    document.getElementById("3").style.display = "table";
+    document.getElementById("4").style.display = "none";
+  
+  }
+  if (inp == 'when')
+  {
+    document.getElementById("1").style.display = "none";
+    document.getElementById("2").style.display = "none";
+    document.getElementById("3").style.display = "none";
+    document.getElementById("4").style.display = "table";
+  
+  }
+// For all the triples
+  if (inp == 'item1')
+  {
+    document.getElementById("item1").style.display = "table";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item2')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "table";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item3')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "table";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item4')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "table";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item5')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "table";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item6')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "table";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item7')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "table";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item8')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "table";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item9')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "table";
+    document.getElementById("item10").style.display = "none";
+  
+  }
+
+  if (inp == 'item10')
+  {
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "table";
+  
+  }
+ 
+ 
+}
