@@ -1449,3 +1449,12 @@ table.minimalistBlack tfoot td {
   font-size: 14px;
 }
 
+.pic { 
+  color: #112363;
+  display: inline-flex;
+  text-align: center;
+  width: 340px;
+  height: 270px;
+  align-items: center;
+  justify-content: center;
+}
