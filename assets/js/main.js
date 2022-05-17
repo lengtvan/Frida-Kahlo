@@ -453,3 +453,61 @@ function myFunction(inp) {
  
  
 }
+
+$("#csv").click(function() {
+  // hope the server sets Content-Disposition: attachment!
+
+  if (document.getElementById("item1").style.display != "none")
+  {
+    window.location = 'triple_tables/Documentary.csv';
+
+  }
+  if (document.getElementById("item2").style.display != "none")
+  {
+    window.location = 'triple_tables/Frida Kahlo An Open Life-Table 1.csv';
+
+  }
+  if (document.getElementById("item3").style.display != "none")
+  {
+    window.location = 'triple_tables/Trotsky and Kahlo-Table 1.csv';
+
+  }
+  if (document.getElementById("item4").style.display != "none")
+  {
+    window.location = 'triple_tables/TED-Ed.csv';
+
+  }
+
+  if (document.getElementById("item5").style.display != "none")
+  {
+    window.location = 'triple_tables/Letter.csv';
+
+  }
+  if (document.getElementById("item6").style.display != "none")
+  {
+    window.location = 'triple_tables/Museum-Table 1.csv';
+
+  }
+  if (document.getElementById("item7").style.display != "none")
+  {
+    window.location = 'triple_tables/Article.csv';
+
+  }
+  if (document.getElementById("item8").style.display != "none")
+  {
+    window.location = 'triple_tables/The Broken Column-Table 1.csv';
+
+  }
+  if (document.getElementById("item9").style.display != "none")
+  {
+    window.location = 'triple_tables/Frida Kahlo Portrait-Table 1.csv';
+
+  }
+  if (document.getElementById("item10").style.display != "none")
+  {
+    window.location = 'triple_tables/Diary.csv';
+
+  }
+
+  
+});
