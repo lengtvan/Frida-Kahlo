@@ -346,7 +346,23 @@
   
   <div class="section-header">
     <h2>Metadata Analysis</h2>
-    <p>Here we are doing the metadata analysis  
+    <p>All standards allow computational modeling, helping mediate through different cultural heritage sources. All standards refer to cultural works.
+      This metadata analysis was made keeping in mind the relevance of the Web Ontology Language (OWL). 
+      The order of metadata standards is equal to their relevancy to the project.
+       <ul>
+         <li>1.<b>SCHEMA.ORG</b>: a collaborative activity that creates and maintains schema for structured data for the Web. Founded by Google and Microsoft, it constitutes a shared vocabulary for extensible experiences.</li>
+         <li>2.<b>Dublin Core</b>: allows the bridging of established metadata and graph-based solutions for integration across data within a Linked Data ecosystem. Made up of 15 metadata elements, it offers expanded cataloging information and improved indexing for search engine programs.
+      </li>
+      <li>3.<b>CIDOC-CRM</b> Conceptual Reference Model, it is a theoretical as well as a practical tool to extend and integrate cultural heritage information. Allows the retrieval of specific data points. 
+      </li>
+      <li><b>CDWA/CCO</b> Conceptual Reference Model, it is a theoretical as well as a practical tool to extend and integrate cultural heritage information. Allows the retrieval of specific data points. 
+      </li>
+      <li><b>MARC/MARC21</b>. An online publication offering detailed descriptions of data elements, enriched with historic sections.
+      </li>
+      <li><b>CCO: Cataloguing Cultural Objects</b>. This guide is the first data content standard specifically intended for cataloging cultural heritage material. Following the development of metadata sets such as CDWA and Dublin Core, CCO syntax guides the choice of terms for ordering data. Cataloging of all cultural works: paintings, sculptures, objects of material culture, architecture/built works, installation art, performance art, manuscripts, photographs, and prints.
+      </li>
+      </ul>
+     
     </p>
   </div>
 
@@ -399,29 +415,17 @@
   
   <div class="section-header">
     <h2>Metadata Alignment</h2>
-    <p>Once we are done with the analysis of metadata, we move towards the next step which is metadata alignment.
-      In this step, we compare and align the different metadata properties we have extracted. In order to compare 
-      these different properties, we divided them into categories of Who, What, When and Where based on our initial maps.
-      Then we defined some properties in natural language that best fit those categories.
+    <p>After having found the linked institutions and corresponding standard, this last fundamental step allows the final description and interconnection between items. The whole purpose of this project was to adopt shared semantic ontologies in order to deliverent coherent data.
+      <ul>The final adopted standards:</ul>
+      <li><b>Dublin Core</b> <i>: dcterms</i>. Applied over most standards, for its core relevancy. </li>
+      <li><b>Schema.org:</b> <i>Schema:</i>      </li>
+      <li><b>CDWA</b>: applied as a shared markup vocabulary.      </li>
+      <li> <b>OWL</b><i>: owl</i>
+      </li>
+      <li><b>CRM</b>: <i>CREM:</i>
+      </li>
+
     </p>
-    <p>All standards allow computational modeling, helping mediate through different cultural heritage sources. All standards refer to cultural works. 
-    This metadata analysis was made keeping in mind the relevance of the Web Ontology Language (OWL). 
-    The order of metadata standards is equal to their relevancy to the project.</p>       
-    <ul>
-      <li> 1. <b>SCHEMA.ORG</b>: a collaborative activity that creates and maintains schema for structured data for the Web. Founded by Google and Microsoft, it constitutes a shared vocabulary for extensible experiences.
-      </li>
-      <li>2. <b>Dublin Core</b>: allows the bridging of established metadata and graph-based solutions for integration across data within a Linked Data ecosystem. Made up of 15 metadata elements, it offers expanded cataloging information and improved indexing for search engine programs. 
-      </li>
-      <li>3. <b>CIDOC-CRM</b> - Conceptual Reference Model, it is a theoretical as well as a practical tool to extend and integrate cultural heritage information. Allows the retrieval of specific data points. 
-      </li>
-      <li>4. <b>CDWA/CCO</b>: Categories for the Description of Works of Art. It is a data standard of art and its disciplines. This core offers a conceptual framework for retrieving information. It can be used to map data, identify issues, and openly link data.
-      </li>
-      <li>5. <b>MARC/MARC21</b>. An online publication offering detailed descriptions of data elements, enriched with historic sections.
-      </li>
-      <li>6. <b>CCO: Cataloguing Cultural Objects</b>. This guide is the first data content standard specifically intended for cataloging cultural heritage material. Following the development of metadata sets such as CDWA and Dublin Core, CCO syntax guides the choice of terms for ordering data. Cataloging of all cultural works: paintings, sculptures, objects of material culture, architecture/built works, installation art, performance art, manuscripts, photographs, and prints.
-      </li>
-    </ul>
-    
   </div>
 
   <div  style="text-align: center;">
@@ -1017,6 +1021,7 @@
     <p>In this step we use the URIs that were produced in the previous step and produce RDF statements in the form of 
       triples according to turtle serialization. These statements also include other authorities and sources which we link 
       to our existing item's data.
+    
     </p>
     
 	
