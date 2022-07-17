@@ -1,6 +1,2 @@
-Thanks for downloading this template!
-
-Template Name: TheEvent
-Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This is a knowledge organization project that features Frida Kahlo, her life and her works.
+Please view deployed project at: https://fridakahlolodchamber.netlify.app/
